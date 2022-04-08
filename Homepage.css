@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 1px;
+	font-family: Kristen ITC; 
+}
+
+body{
+	
+	background: #ff99cc;
+	height: 100vh;
+	background-size: cover;
+	background-position: center; 
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	display: block;
+	background-color: transparent;
+	background-position: center;
+}
+
+ul li{
+	 display: inline-block;
+ }
+
+ ul li a{
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 5px 20px;
+ 	border: 3px solid;
+ 	border-radius: 10px;
+ }
+
+ ul li a:hover{
+	background-color: white; 
+	color: #ff99cc;
+ 	padding: 10px;
+ 	margin: 10px;
+ }
+
+li {
+	float: center;
+	display: block;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align:;
+	padding: ;
+	text-decoration: none;
+	transition: 0.5s ease;
+	margin-top: 20px;
+}
+
+ul li.active a{
+	background-color: transparent;
+	color: #0000;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.main{
+	max-width: 1300px;
+	margin:auto;
+}
+
+.title{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,10%);
+	font-size: 80px;
+	color: white;
+}
+
+.title h1{
+	color:  #fff;
+	font-size:  63px;
+	padding-top: 150px;
+}
+
+ .dots{
+ 	color: transparent;
+ }
+
+.word{
+	margin-top: -35px;
+	font-size: 90px;
+	color: white;
+	float: left;
+	margin-left: -100px;
+}
+
+.icon{
+ 	height: 180px;
+ 	width: 180px;
+ 	float: left;
+ 	margin-top: -50px;
+ 	margin-left: 30px;
+ }
